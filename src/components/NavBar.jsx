@@ -9,7 +9,7 @@ export default function NavBar() {
         setisMobile(prev=>!prev)
     }
   return (
-    <nav className='sticky backdrop-blur py-2 z-50 border-b-4 border-cyan-500	'> 
+    <nav className='sticky  backdrop-blur py-2 z-50 border-b-4 border-cyan-500	'> 
         <div className="container px-5 mx-auto relative text-sm">
             <div className="flex justify-between items-center ">
                 <div className="flex item-center">

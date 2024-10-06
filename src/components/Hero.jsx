@@ -3,7 +3,7 @@ import video1 from '../assets/video1.mp4'
 import video2 from '../assets/video2.mp4'
 export default function Hero() {
   return (
-    <div className='flex flex-col w-full mt-4 lg:mt-20 justify-center items-center'>
+    <div className='flex flex-col w-full mt-4 lg:mt-20 justify-center items-center h-screen'>
      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white text-center md:px-20"> 
         VirtualIR build tools <span className='bg-gradient-to-r from-cyan-400 to-cyan-700 text-transparent bg-clip-text'>
       for developers
@@ -26,12 +26,12 @@ export default function Hero() {
                         Documentation
                     </a>                          
       </div>
-      <div className="flex mt-10 justify-center p-12">
-        <video   autoPlay muted loop className='border-2 border-cyan-500 w-1/2 rounded-md ml-12 mr-2'>
+      <div className="flex mt-10 flex-col sm:flex-row justify-center sm:p-12">
+        <video   autoPlay muted loop className='border-2 border-cyan-500 my-5 sm:my-0  sm:w-1/2 rounded-md sm:ml-12 sm:mr-2'>
             <source src={video1} type='video/mp4'/>
             Your browser does not suport this video tag
         </video>
-        <video   autoPlay muted loop className='border-2 border-cyan-500 w-1/2 rounded-md mr-14 ml-2'>
+        <video   autoPlay muted loop className='border-2 border-cyan-500 sm:w-1/2 rounded-md sm:mr-14 sm:ml-2'>
             <source src={video2} type='video/mp4'/>
             Your browser does not suport this video tag
         </video>
