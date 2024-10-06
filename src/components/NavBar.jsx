@@ -9,12 +9,12 @@ export default function NavBar() {
         setisMobile(prev=>!prev)
     }
   return (
-    <nav className='sticky  backdrop-blur py-2 z-50 border-b-4 border-cyan-500	'> 
-        <div className="container px-5 mx-auto relative text-sm">
+    <nav className='sticky top-0 left-0 w-full mx-auto backdrop-blur bg-cyan-700 bg-opacity-75 py-4 z-50 border-b-4 border-cyan-500'> 
+        <div className=" mx-auto container px-5  relative text-sm">
             <div className="flex justify-between items-center ">
                 <div className="flex item-center">
                     <img src={logo1} className='h-10 w-10 m-1' alt="" />
-                    <span className='text-xl text-center align-middle tracking-tight py-2 text-cyan-500'>
+                    <span className='text-xl text-center align-middle tracking-tight py-2 text-cyan-500 font-medium	'>
                         SchoolTrack</span>
                 </div>
                 <ul className='hidden lg:flex ml-14 space-x-12  text-white'>

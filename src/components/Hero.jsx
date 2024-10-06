@@ -3,7 +3,7 @@ import video1 from '../assets/video1.mp4'
 import video2 from '../assets/video2.mp4'
 export default function Hero() {
   return (
-    <div className='flex flex-col w-full mt-4 lg:mt-20 justify-center items-center h-screen'>
+    <div className='flex flex-col w-full mt-4 lg:mt-40 justify-center items-center h-screen'>
      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-white text-center md:px-20"> 
         VirtualIR build tools <span className='bg-gradient-to-r from-cyan-400 to-cyan-700 text-transparent bg-clip-text'>
       for developers
