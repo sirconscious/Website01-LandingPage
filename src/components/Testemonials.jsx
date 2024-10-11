@@ -9,7 +9,7 @@ export default function Testemonials() {
                 {testimonials.map((testimonial,index)=>(
                     <div className='w-full sm:w-1/2 lg:w-1/3 px-4 py-4' key={index}>
                         
-                        <div className="bg-cyan-600 p-6 rounded-md ">
+                        <div className="bg-cyan-800 p-6 rounded-md ">
                             <div className="flex mb-6 items-center">
                             <img src={testimonial.image} className='w-12 h-12 rounded-full' alt="" />
                             <div className="">

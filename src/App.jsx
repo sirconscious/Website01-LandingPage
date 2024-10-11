@@ -5,6 +5,7 @@ import FeatureSection from './components/FeatureSection'
 import Workflow from './components/Workflow'
 import Pricing from './components/Pricing'
 import Testemonials from './components/Testemonials'
+import Footer from './components/Footer'
 export default function App() {
   return (
 <div className="bg-slate-800 sm:h-fit ">
@@ -20,6 +21,7 @@ export default function App() {
     <Workflow/>
     <Pricing></Pricing>
     <Testemonials></Testemonials>
+    <Footer/>
     </div> 
     )
 }
