@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 import FeatureSection from './components/FeatureSection'
 import Workflow from './components/Workflow'
+import Pricing from './components/Pricing'
 export default function App() {
   return (
 <div className="bg-slate-800 sm:h-fit ">
@@ -16,5 +17,7 @@ export default function App() {
     </div>
     <FeatureSection/>
     <Workflow/>
-</div>  )
+    <Pricing></Pricing>
+    </div> 
+    )
 }
